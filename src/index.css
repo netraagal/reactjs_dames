@@ -17,7 +17,7 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-.square {
+.pion {
   background: #fff;
   border: 1px solid #999;
   float: left;
@@ -32,7 +32,15 @@ ol, ul {
   width: 34px;
 }
 
-.square:focus {
+.pion.black {
+  background: BLACK;
+}
+
+.pion.white {
+  background: WHITE;
+}
+
+.pion:focus {
   outline: none;
 }
 
